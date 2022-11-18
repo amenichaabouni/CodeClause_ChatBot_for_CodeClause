@@ -1,0 +1,58 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I can guide you if you have any query about Our Company CodeClause","I can give you info about the services and internships provided by codeclause.com"],
+         "context": [""]
+        },
+        {"tag": "internships",
+         "patterns": ["Where to apply for internship?", "Internships offered","How to apply for an internship?", "How can I apply for the internship ?","How can I get more informations about the internships ?"],
+         "responses": ["You can check our page on LinkedIn where you can find a post about how to apply to the internship \nOR Check this link : https://codeclause.com/careers.html to apply for the internship"],
+         "context": [""]
+        },
+        {"tag": "internships duration",
+         "patterns": ["How long the internship can be ?", "What is the duration of the internship ?" ],
+         "responses": ["The duration of the internship is one month","one month","only one month"],
+         "context": [""]
+        },
+        {"tag": "internships fields",
+         "patterns": ["How many fields are there ?", "Which field that the inernship concern about ?"],
+         "responses": ["There are many fields like: \nData & Analytics, \nAutomation AI, \nIoT Services, \nWeb Designing, \nWeb Application Development, \nMobile Application Development, \nSoftware Development, \nDigital Marketing, \nSoftware Testing, \nQuality Assurance services, \nand many more."],
+         "context": [""]
+        },
+        {"tag": "About CodeClause",
+         "patterns": ["About codeclause", "What is codeclause?", "Services offered", "What is codeclause internship?", "codeclause","What is CodeClause ?","What about CodeClause ?","What is codeclause ?","What about CodeClause ?"],
+         "responses": ["CodeClause aspires to be the global sourcing choice of the world market and revolutionizes the way service processes function. \nTo reach out to the common people across the globe and make Information Technology a tool for the “MASS” along with the tool for the “CLASS”. \nCreating innovative IT solutions and providing IT-enabled services to delight customers worldwide and build Relationships based on Trust, Values and Professionalism. CodeClause has industry-specific software expertise in Technology, Financial, Healthcare, Media, Manufacturing, and many other sectors. \nThe company specializes in offering Data & Analytics, Automation AI, IoT Services, Web Designing, Web Application Development, Mobile Application Development, Software Development, Digital Marketing, Software Testing, Quality Assurance services, and many more. \nWe offer reliable, efficient delivery with high-caliber engineers & finely-tuned software development processes.We Believe In Leadership to lead the technology to build a better future Integrity to follow truth and be real Accountability for our every commitment. \nWe Imagine, We Engineer, We Modernize, We Manage"],
+         "context": [""]
+        },
+        {"tag" : "offer_letter",
+          "patterns" : ["Applied for internship","I have applied for internship", "When will I receieve my offer letter?","offer letter not recieved"],
+          "responses": ["You will get your offer letter on mail around starting week of the month for which you've applied for the internship"],
+          "context": [""]
+        },
+        {"tag": "Contact",
+         "patterns": ["How can I contact you ?", "How can I contact codeclause ?", "How can I contact CodeClause ?","How can I get in touch with you ?","How can I get in touch with CodeClause ?","How can I get in touch with codeclause ?" ],
+         "responses": ["Contact us : \nAddress :401 Shreenath Complex \n4th Floor \nNear Polyhub FoodCourt \nVadgaon Pune, India. \nPhone: +91 7030020973. \nEmail: official@codeclause.com. \nWebsite: https://internship.codeclause.com/ "],
+         "context": [""]
+        }
+   ]
+}
